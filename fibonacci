@@ -1,12 +1,12 @@
-def fibRecursion(n):
+def fib(n):
  if n<=1:
     return n
  else:
-    return(fibRecursion(n-1)+fibRecursion(n-2))
-m=int(input("Enter number of terms :")
+    return(fib(n-1)+fib(n-2))
+m=int(input("Enter number of terms :"))
 if m<=0:
    print("Please Enter a positive Number : ")
 else:
     print("Fibonacci Sequence :")
-    for i in range (m);
-      print(fibRecursion (i))
+    for i in range (m):
+      print(fib (i))
